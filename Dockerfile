@@ -8,5 +8,8 @@ COPY app/ /var/task/
 # Install Python dependencies
 RUN pip install -r /var/task/requirements.txt
 
+# Expose debug port
+EXPOSE 5678
+
 # Set the Lambda handler (replace `lambda_function.lambda_handler` with your handler)
 CMD ["lambda_function.lambda_handler"]
