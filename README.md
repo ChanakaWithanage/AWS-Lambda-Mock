@@ -8,7 +8,7 @@ This project demonstrates setting up a local development environment to test AWS
 1. Clone this repository.
 2. Navigate to the project directory:
    ```bash
-   cd lambda-project
+   cd AWS-Lambda-Mock
    ```
 3. Build the Docker image:
    ```bash
