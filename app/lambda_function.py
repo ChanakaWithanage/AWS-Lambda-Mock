@@ -1,5 +1,5 @@
 import json
-from utils import preprocess_text, log_event
+from Util.utils import preprocess_text, log_event
 from textblob import TextBlob
 
 def lambda_handler(event, context):
