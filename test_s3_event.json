@@ -1,0 +1,23 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2024-11-25T12:34:56.789Z",
+      "eventName": "ObjectCreated:Put",
+      "s3": {
+        "bucket": {
+          "name": "example-bucket",
+          "arn": "arn:aws:s3:::example-bucket"
+        },
+        "object": {
+          "key": "example-object.txt",
+          "size": 12345,
+          "eTag": "abc123",
+          "sequencer": "1234567890"
+        }
+      }
+    }
+  ]
+}
